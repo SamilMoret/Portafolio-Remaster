@@ -1,0 +1,436 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+header {
+  display: flex;
+  height: 67px;
+  background: #3A3A3A;
+  justify-content: space-between;
+  font-family: Segoe UI;
+}
+
+header ul {
+  display: flex;
+  padding-right: 40px;
+}
+
+header ul li {
+  padding-right: 30px;
+  padding-top: 20px;
+}
+
+header ul li a {
+  color: #ffff;
+  text-decoration: underline;
+  font-size: 13px;
+}
+
+header img {
+  padding-left: 60px;
+  background: none;
+}
+
+
+#Banner {
+  width: 1349px;
+  height: 300px;
+}
+
+#Principal {
+  width: 100%;
+}
+
+#Perfil {
+  position: absolute;
+  top: 220px;
+  left: 230px;
+}
+
+#uno {
+  position: absolute;
+  left: 250px;
+  top: 450px;
+  background: white;
+  border-radius: 30px;
+  background: none;
+}
+
+#dos {
+  position: absolute;
+  left: 330px;
+  top: 450px;
+  background: white;
+  border-radius: 10px;
+  background: none;
+}
+
+#tres {
+  position: absolute;
+  left: 415px;
+  top: 450px;
+  background: white;
+  border-radius: 30px;
+  background: none;
+}
+
+#Nombre {
+   font-size: 55px;
+   font-family: Segoe UI;
+   color: #707070;
+   padding-top: 20px;
+   padding-left: 548px;
+   text-align: left;
+}
+
+#Pro {
+  font-size: 34px;
+   font-family: Segoe UI;
+   color: #707070;
+   font-style: Italic;
+   font-weight: lighter;
+   padding-top: 3px;
+   padding-left: 548px;
+   text-align: left;
+}
+
+#Perfil {
+  max-width: 100%;
+}
+
+#Prepa {
+   width: 73%;
+   padding-top: 20px;
+   padding-left: 548px;
+   font: 18px Segoe UI;
+   letter-spacing: 0px;
+   color: #707070;
+   opacity: 1;
+   padding-bottom: 0;
+}
+
+#Ola {
+  text-align: left;
+  padding-top: 30px;
+  padding-left: 548px;
+  font-family: Segoe UI;
+  font: bolder;
+  color: #707070;
+}
+
+#Part1 {
+  background: white;
+  margin-bottom: 3px;
+}
+
+#Part2 {
+  background: #DEDEDE;
+  margin-top: 40px;
+  width: 100%;
+  padding-bottom: 50px;
+  padding-top: 50px;
+  padding-left: 150px;
+  font-family: Segoe UI;
+  color: #707070;
+}
+
+
+#Part2 h1 {
+  padding-bottom: 30px;
+  font-size: 35px;
+  font-weight: lighter;
+}
+
+#Part2 p {
+  padding-left: 34px;
+  font-size: 13px; 
+  width: 100%; 
+}
+
+#Part2 h4 {
+  padding-left: 34px;
+  font-size: 21px;
+  border-left: #000000 5px solid;  
+}
+
+.Data {
+  padding-top: 10px;
+}
+
+#Part3 {
+  background: #434343;
+  width: 100%;
+  padding-bottom: 50px;
+  padding-top: 50px;
+  padding-left: 150px;
+  font-family: Segoe UI;
+  color: #999999;
+}
+
+#Part3 h1 {
+  padding-bottom: 30px;
+  font-size: 35px;
+  font-weight: lighter;
+}
+
+#Part3 p {
+  padding-left: 34px;
+  font-size: 13px;
+  width: 100%;
+}
+
+#Part3 h4 {
+  padding-left: 34px;
+  font-size: 21px;
+  padding-bottom: 10px;
+  border-left: #ffffff 5px solid;
+}
+
+#Part4 {
+  background: #F2F2F2;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  display: flex;
+  align-items: baseline;
+  font-family: Segoe UI;
+}
+
+
+.card {
+  width: 260px;
+  height: 350px;
+  align-items: center;
+  padding-top: 16.9px;
+  background: #FFFFFF;
+  padding-left: 14px;
+  margin-left: 600px;
+  border-radius: 5px;
+  justify-content: space-between;
+  margin-top: 180px;
+  margin-left: 150px;
+}
+
+.card h4 {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 21px;
+}
+
+.card p {
+  margin-bottom: 10px;
+  font-size: 13px;
+}
+
+.card a {
+  padding: 7px;
+  font-size: 12px;
+  text-decoration: none;
+  color: #FFFFFF;
+  background: #585858;
+  margin-left: 20px;
+  border-radius: 5px;
+}
+
+body {
+  max-width: 100%;
+}
+
+#Part4 h1 {
+  position: absolute;
+  margin-top: 80px;
+  margin-left: 150px;
+  font-size: 35px;
+  font-weight: lighter;
+}
+
+#TextoF {
+  width: 398px;
+  padding-top: 40px;
+  padding-bottom: 30px;
+}
+
+#TextoF p {
+  padding-bottom: 10px;
+  color: #707070;
+}
+
+#Final {
+  display: flex;
+  padding-left: 150px;
+  font-family: Segoe UI;
+  background: #000000;
+  padding-bottom: 25px;
+}
+
+#TextoF img {
+  margin-left: 40px;
+  margin-top: 40px;
+}
+
+#Correo {
+  padding-left: 130px;
+  padding-top: 40px;
+}
+
+#TextoF h1 {
+  font-weight: lighter;
+  padding-bottom:  20px;
+  color: #FFFFFF;
+}
+
+#Correo h4 {
+  font-size: 13px;
+  color: #FFFFFF;
+  padding-top: 10px;
+  margin-bottom: 5px;
+}
+
+#Correo input {
+  width: 398px;
+}
+
+#AX {
+  height: 90px;
+  margin-top: 2px;
+}
+
+#DX {
+  padding: 10px;
+  margin-top: 10px;
+  background: rgb(28, 107, 255);
+  font-weight: bold;
+  color: #FFFFFF;
+  border-radius: 6px;
+}
+
+.blockIt {
+  border-radius: 13px;
+  height: 30px;
+  border: rgb(151, 151, 151) solid 3px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+#text-area {
+  font-family: sans-serif;
+  resize: none;
+  width: 400px;
+  height: 100px;
+}
+
+
+#send-button {
+  padding: 5px;
+  margin-top: 10px;
+  background: rgb(84, 98, 117);
+  color: #ffffff;
+  border-radius: 13px;
+  text-align: center;
+}
+
+@media (max-width:1040px) {
+  
+  #Nombre {
+    padding-top: 170px;
+    padding-left: 248px;
+  }
+  
+  #Pro {
+    padding-top: 0px;
+    padding-left: 248px;
+  }
+
+  #Ola {
+    padding-top: 40px;
+    padding-left: 248px;
+  }
+
+  #Prepa {
+    padding-top: 20px;
+    padding-left: 248px;
+  }
+
+  #Part1 {
+    width: 100%;
+  }
+
+  #Part4 {
+    flex-direction: column;
+    padding-bottom: 170px;
+  }
+
+  .card {
+    width: 260px;
+    height: 370px;
+    margin-bottom: -115px;
+  }
+
+  #Final {
+    flex-direction: column;
+    padding-bottom: 60px;
+  }
+
+  #Correo {
+    padding-left: 10px;
+  }
+}
+
+@media (max-width:500px) {
+  #Nombre {
+    padding-top: 170px;
+    padding-left: 148px;
+  }
+  
+  #Pro {
+    padding-top: 0px;
+    padding-left: 148px;
+  }
+
+  #Ola {
+    padding-top: 40px;
+    padding-left: 148px;
+  }
+
+  #Prepa {
+    padding-top: 20px;
+    padding-left: 148px;   
+  }
+
+  #Perfil {
+    position: absolute;
+    top: 220px;
+    left: 130px;
+  }
+  
+  #uno {
+    position: absolute;
+    left: 150px;
+    top: 450px;
+    background: white;
+    border-radius: 30px;
+    background: none;
+  }
+  
+  #dos {
+    position: absolute;
+    left: 230px;
+    top: 450px;
+    background: white;
+    border-radius: 10px;
+    background: none;
+  }
+  
+  #tres {
+    position: absolute;
+    left: 315px;
+    top: 450px;
+    background: white;
+    border-radius: 30px;
+    background: none;
+  }
+}
